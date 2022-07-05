@@ -10,3 +10,5 @@ getCatbtn.addEventListener("click", async function () {
   const data = await res.json();
   catImg.src = data[0].url;
 });
+
+// fetching Dog
