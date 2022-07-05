@@ -44,11 +44,24 @@ body {
 
 .img-cat,
 .img-dog {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 img {
   height: 400px;
   width: 300px;
   border-radius: 2px;
+}
+
+/* buttons */
+.get-cat,
+.get-dog {
+  background-color: #fff;
+  padding: 1rem 3rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
