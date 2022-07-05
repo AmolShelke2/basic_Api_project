@@ -12,3 +12,14 @@ getCatbtn.addEventListener("click", async function () {
 });
 
 // fetching Dog
+
+const dogImg = document.querySelector(".dog-img");
+const getDogbtn = document.querySelector(".get-dog");
+
+const dogAPiUrl = "https://dog.ceo/api/breeds/image/random";
+
+getDogbtn.addEventListener("click", async function () {
+  const res = await fetch(dogAPiUrl);
+  const data = await res.json();
+  dogImg.src = data.message;
+});
