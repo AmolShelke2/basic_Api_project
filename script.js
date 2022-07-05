@@ -23,3 +23,5 @@ getDogbtn.addEventListener("click", async function () {
   const data = await res.json();
   dogImg.src = data.message;
 });
+
+// refactoring code
