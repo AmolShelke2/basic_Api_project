@@ -1,5 +1,3 @@
-// Getting cat
-
 const catImg = document.querySelector(".cat-img");
 const getCatbtn = document.querySelector(".get-cat");
 
