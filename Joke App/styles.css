@@ -30,6 +30,7 @@ h2 {
   margin: 0;
   opacity: 0.5;
   letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 .joke {
