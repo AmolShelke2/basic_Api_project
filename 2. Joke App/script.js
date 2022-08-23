@@ -16,5 +16,3 @@ async function generateJoke() {
 }
 
 generateJoke();
-
-// Final Consideration
