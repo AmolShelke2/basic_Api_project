@@ -26,3 +26,5 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 ## Pokedex
 
 <img src="./4.%20Pokedex/Pokedex.png">
+
+## Anime App
