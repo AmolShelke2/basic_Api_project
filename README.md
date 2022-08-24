@@ -24,3 +24,5 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 <img src="/3.%20Live%20User%20Filter/liveUser.png" alt="preview png">
 
 ## Pokedex
+
+<img src="./4.%20Pokedex/Pokedex.png">
