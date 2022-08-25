@@ -32,3 +32,5 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 <img src="./5.%20Anime%20App/preview.png">
 
 ## Random image Feed
+
+<img src="./6.%20Random%20Image%20Feed/preview.png">
