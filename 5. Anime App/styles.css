@@ -66,6 +66,7 @@ body {
   border: 10px solid #00ff6c;
   border-radius: 50%;
   align-items: center;
+  object-fit: cover;
 }
 
 .hero-name {
