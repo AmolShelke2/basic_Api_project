@@ -38,3 +38,5 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 ## GitHub User Fetch
 
 <img src="./7.%20Github%20User%20Fetch/preview.png">
+
+## Quote Generator
