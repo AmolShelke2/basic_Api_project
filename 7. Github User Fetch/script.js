@@ -11,7 +11,7 @@ async function getUser(userName) {
     createUserCard(data);
   } catch (err) {
     if (err.response.status === 404) {
-      console.log(err);
+      createErrorCard("No user find with the username");
     }
   }
 }
@@ -36,6 +36,16 @@ function createUserCard(user) {
     `;
 
   main.innerHTML = cardHtml;
+}
+
+function createErrorCard(msg) {
+  const cardHTML = `
+        <div class='card'>
+            <h1>${msg}</h1>
+        </div>
+    `;
+
+  main.innerHTML = cardHTML;
 }
 
 getUser("AmolShelke2");
