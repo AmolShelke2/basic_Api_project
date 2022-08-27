@@ -36,3 +36,5 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 <img src="./6.%20Random%20Image%20Feed/preview.png">
 
 ## GitHub User Fetch
+
+<img src="./7.%20Github%20User%20Fetch/preview.png">

@@ -7,7 +7,6 @@ const main = document.getElementById("main");
 async function getUser(userName) {
   try {
     const { data } = await axios(APIURL + userName);
-    console.log(data);
     createUserCard(data);
   } catch (err) {
     if (err.response.status === 404) {
