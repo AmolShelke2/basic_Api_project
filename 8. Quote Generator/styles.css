@@ -33,11 +33,17 @@ h2 {
   text-transform: capitalize;
 }
 
+.container p {
+  opacity: 0.8;
+  margin-left: 20rem;
+}
+
 .quote {
   font-size: 30px;
   letter-spacing: 1px;
   line-height: 40px;
   margin: 50px auto;
+  margin-bottom: 20px;
   max-width: 600px;
 }
 
