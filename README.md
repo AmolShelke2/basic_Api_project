@@ -43,3 +43,4 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 
 ![192 168 0 107_5500_8 %20Quote%20Generator_index html](https://user-images.githubusercontent.com/95171638/187085879-502837f2-6835-400b-85c5-4292095006e1.png)
 
+## Weather App
