@@ -1,1 +1,111 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./bg.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app-main {
+  width: 50vh;
+  margin: 100px auto;
+  background-color: rgba(248, 248, 255, 0.6);
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.app-main > * {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 100%;
+  background-color: rgba(248, 248, 255, 0.6);
+  border: none;
+  outline: none;
+  color: #582233;
+  font-size: 1.2rem;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 10px;
+  text-align: center;
+  margin: 20px 4px;
+  font-style: inherit;
+}
+
+.input-box:focus {
+  background-color: rgba(255, 255, 255);
+}
+
+#get-btn {
+  background-color: rgb(241, 128, 128);
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#get-btn:hover {
+  background-color: rgb(241, 124, 123);
+}
+
+.weather-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #582233;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(248, 248, 255, 0.6);
+  height: 25vh;
+  display: none;
+}
+
+.location-details {
+  font-weight: bold;
+}
+
+.weather-status {
+  padding: 20px;
+}
+
+.temp {
+  font-size: 50pt;
+  font-weight: 700;
+  margin: 20px 0;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,
+.weather {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .temp {
+    font-size: 34pt;
+    text-align: center;
+  }
+}
