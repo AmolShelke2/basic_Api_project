@@ -46,3 +46,5 @@ This repository contains basic web API projects created with HTML CSS and JavaSc
 ## Weather App
 
 ![192 168 0 107_5500_9 %20Weather%20App_index html](https://user-images.githubusercontent.com/95171638/187268516-d81acc2c-d74d-4a79-84dd-94e858b7af16.png)
+
+## Anime x Slider
